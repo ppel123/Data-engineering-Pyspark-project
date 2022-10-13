@@ -351,11 +351,7 @@ To run the script that creates the Parquet file with Python we should:
 2. Go to script's folder (lets suppose that the scripts are in the Desktop) with `cd ~/Desktop`
 3. Run `python3 write-parquet.py`  
 
-![image](https://user-images.githubusercontent.com/42607603/161257018-67c2a55b-d509-43fb-84c3-3b5950355496.png)
-
 To run the script that reads the Parquet file created in a Spark dataframe we follow the same procedure, but at the end we execute the read-parquet.py with the command `python3 read-parquet.py` in a terminal.  
-
-![image](https://user-images.githubusercontent.com/42607603/161257512-f6471163-0373-4904-b112-404afeaefbf4.png)
 
 #### Spark Execution
 To run the scripts through Spark directly we should:
@@ -363,11 +359,7 @@ To run the scripts through Spark directly we should:
 2. Now to submit the job in Spark and run it we are going to use the spark-submit located in the bin folder.  
 We should execute this as follows `bin/spark-submit ~/Desktop/write-parquet.py`
 
-![image](https://user-images.githubusercontent.com/42607603/161258638-b043b49e-5666-4de3-8e4b-1168ca399b8f.png)
-
-![image](https://user-images.githubusercontent.com/42607603/161258697-22f66a9c-60a0-4306-9194-3ff2cc28f6ba.png)
-
-As we can see the application is submitted and processed by Spark.   
+The application is submitted and processed by Spark.   
 We follow the same procedure for reading the Parquet file to a Spark dataframe.
 
 After the successful execution of the creation script we can see that there is the parquet file in HDFS.
