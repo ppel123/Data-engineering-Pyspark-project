@@ -288,27 +288,13 @@ To do this we have to have the Hadoop cluster up and running.
 The steps to upload a file are:  
 1. Go to the Hadoop installation folder with `cd /usr/local/hadoop-3.2.1`
 2. Check if there are any files in HDFS by typing `bin/hadoop fs -ls \`  
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/42607603/161225699-846893f2-eedd-45d3-81f5-408291358255.png">
-</p>   
-
 If nothing is return then the HDFS is empty. So lets add a folder and the CSV file in there.
 3. To create a folder we type the command `bin/hadoop fs -mkdir /files`  
 Then if we try to see if there are files in HDFS again we will find out that there is a new folder.  
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/42607603/161225980-362d11b8-e44e-42a4-922d-f509114c8884.png">
-</p> 
-
 4. Now to copy a CSV file from our system to HDFS we will use the command `-put` or `-copyFromLocal`.   
 We do not use the Linux `cp` command here.    
 So lets add the file by typing `bin/hadoop fs -put ~/Desktop/Files/data.csv /files`
 If we check again there is a file in the /files folder
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/42607603/161232462-ce20f426-b8df-49ad-805d-eaf600f769eb.png">
-</p> 
 
 # Coding Part
 After completing the above part we will proceed with the coding part.  
