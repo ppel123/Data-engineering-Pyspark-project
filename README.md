@@ -320,7 +320,7 @@ As we can see there are some errors in this file (e.g. in dates or values) that 
 The assumption that we make for this CSV file are:
 * The first column contains datetime values - timestamps 
 * The second column contains only decimal values
-* The third column strings with values that must be SMS or USSD (Unstructured Supplementary Service Data)
+* The third column strings with values that must be Call or Email
 
 The data cleaning and transformation process consists of the following steps:
 * Remove unwanted values based on the above assumptions
