@@ -303,7 +303,7 @@ Then if we try to see if there are files in HDFS again we will find out that the
 
 4. Now to copy a CSV file from our system to HDFS we will use the command `-put` or `-copyFromLocal`.   
 We do not use the Linux `cp` command here.    
-So lets add the file by typing `bin/hadoop fs -put ~/Desktop/Files/cvas_data.csv /files`
+So lets add the file by typing `bin/hadoop fs -put ~/Desktop/Files/data.csv /files`
 If we check again there is a file in the /files folder
 
 <p align="center">
