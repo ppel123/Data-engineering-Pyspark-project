@@ -6,6 +6,10 @@ The goal of this project is to implement a distributed system that processes, tr
 1. A distributed file system "Hadoop cluster".The CSV files will be stored there and the resulting parquet files will be persisted.
 2. A spark cluster running on top of Hadoop and will process the csv data to create the parquet files.
 
+<p align="center">
+  ![flowchart](https://user-images.githubusercontent.com/42607603/195686237-afd41443-c962-4b58-8546-59be85bbf674.png)
+</p>  
+
 Python was used as the main language for preparing the Spark Application (using PySpark).
 
 ### First Task
