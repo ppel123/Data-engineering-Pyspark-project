@@ -350,8 +350,6 @@ We follow the same procedure for reading the Parquet file to a Spark dataframe.
 
 After the successful execution of the creation script we can see that there is the parquet file in HDFS.
 
-![image](https://user-images.githubusercontent.com/42607603/161443783-0395ff4d-721f-4702-b25d-c6131d316a6e.png)   
-
 ![image](https://user-images.githubusercontent.com/42607603/161443840-3d59ccc4-d405-4f3f-ac61-067ddd0fbd23.png)
 
 
